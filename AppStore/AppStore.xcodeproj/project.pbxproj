@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		764054092848B61E00FC3CE4 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764054082848B61E00FC3CE4 /* TodayViewController.swift */; };
+		7640540B2848B67D00FC3CE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640540A2848B67D00FC3CE4 /* GameViewController.swift */; };
+		7640540D2848B68500FC3CE4 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640540C2848B68500FC3CE4 /* AppViewController.swift */; };
+		7640540F2848D9FC00FC3CE4 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7640540E2848D9FC00FC3CE4 /* TabbarViewController.swift */; };
 		765DCCEA284885EF001705F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DCCE9284885EF001705F0 /* AppDelegate.swift */; };
 		765DCCEC284885EF001705F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DCCEB284885EF001705F0 /* SceneDelegate.swift */; };
-		765DCCEE284885EF001705F0 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765DCCED284885EF001705F0 /* TabViewController.swift */; };
 		765DCCF1284885EF001705F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765DCCEF284885EF001705F0 /* Main.storyboard */; };
 		765DCCF3284885F0001705F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765DCCF2284885F0001705F0 /* Assets.xcassets */; };
 		765DCCF6284885F0001705F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765DCCF4284885F0001705F0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		764054082848B61E00FC3CE4 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		7640540A2848B67D00FC3CE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7640540C2848B68500FC3CE4 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		7640540E2848D9FC00FC3CE4 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		765DCCE6284885EF001705F0 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		765DCCE9284885EF001705F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		765DCCEB284885EF001705F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		765DCCED284885EF001705F0 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		765DCCF0284885EF001705F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		765DCCF2284885F0001705F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		765DCCF5284885F0001705F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +64,10 @@
 			children = (
 				765DCCE9284885EF001705F0 /* AppDelegate.swift */,
 				765DCCEB284885EF001705F0 /* SceneDelegate.swift */,
-				765DCCED284885EF001705F0 /* TabViewController.swift */,
+				7640540E2848D9FC00FC3CE4 /* TabbarViewController.swift */,
+				764054082848B61E00FC3CE4 /* TodayViewController.swift */,
+				7640540A2848B67D00FC3CE4 /* GameViewController.swift */,
+				7640540C2848B68500FC3CE4 /* AppViewController.swift */,
 				765DCCEF284885EF001705F0 /* Main.storyboard */,
 				765DCCF2284885F0001705F0 /* Assets.xcassets */,
 				765DCCF4284885F0001705F0 /* LaunchScreen.storyboard */,
@@ -159,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				765DCCEE284885EF001705F0 /* TabViewController.swift in Sources */,
+				7640540D2848B68500FC3CE4 /* AppViewController.swift in Sources */,
+				7640540B2848B67D00FC3CE4 /* GameViewController.swift in Sources */,
+				7640540F2848D9FC00FC3CE4 /* TabbarViewController.swift in Sources */,
+				764054092848B61E00FC3CE4 /* TodayViewController.swift in Sources */,
 				765DCCEA284885EF001705F0 /* AppDelegate.swift in Sources */,
 				765DCCEC284885EF001705F0 /* SceneDelegate.swift in Sources */,
 			);
