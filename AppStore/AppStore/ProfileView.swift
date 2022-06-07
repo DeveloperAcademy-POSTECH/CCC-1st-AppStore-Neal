@@ -16,7 +16,7 @@ let dateFormatter: DateFormatter = {
 
 struct CurrentDateView: View {
     @State var todayDate: Date = Date()
-    var body: some View{
+    var body: some View {
         HStack {
             Text("\(dateFormatter.string(from: todayDate))")
                 .font(.subheadline)
