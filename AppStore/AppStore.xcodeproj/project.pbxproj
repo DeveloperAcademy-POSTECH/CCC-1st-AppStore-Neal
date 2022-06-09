@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		767CAFAF284F63CF00522C12 /* AppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFAE284F63CF00522C12 /* AppStoreApp.swift */; };
-		767CAFB1284F63CF00522C12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFB0284F63CF00522C12 /* ContentView.swift */; };
+		767CAFB1284F63CF00522C12 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFB0284F63CF00522C12 /* MainTabView.swift */; };
 		767CAFB3284F63CF00522C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767CAFB2284F63CF00522C12 /* Assets.xcassets */; };
 		767CAFB6284F63CF00522C12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767CAFB5284F63CF00522C12 /* Preview Assets.xcassets */; };
+		767CAFBE284F658300522C12 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFBD284F658300522C12 /* TodayView.swift */; };
+		767CAFC0284F658900522C12 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFBF284F658900522C12 /* GameView.swift */; };
+		767CAFC2284F659500522C12 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFC1284F659500522C12 /* AppView.swift */; };
+		767CAFC4284F65A000522C12 /* ArcadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFC3284F65A000522C12 /* ArcadeView.swift */; };
+		767CAFC6284F65A500522C12 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFC5284F65A500522C12 /* SearchView.swift */; };
+		767CAFC8284F6B6A00522C12 /* CustomIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFC7284F6B6A00522C12 /* CustomIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		767CAFAB284F63CF00522C12 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		767CAFAE284F63CF00522C12 /* AppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreApp.swift; sourceTree = "<group>"; };
-		767CAFB0284F63CF00522C12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		767CAFB0284F63CF00522C12 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		767CAFB2284F63CF00522C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		767CAFB5284F63CF00522C12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		767CAFBD284F658300522C12 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		767CAFBF284F658900522C12 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		767CAFC1284F659500522C12 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		767CAFC3284F65A000522C12 /* ArcadeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeView.swift; sourceTree = "<group>"; };
+		767CAFC5284F65A500522C12 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		767CAFC7284F6B6A00522C12 /* CustomIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				767CAFAE284F63CF00522C12 /* AppStoreApp.swift */,
-				767CAFB0284F63CF00522C12 /* ContentView.swift */,
+				767CAFC7284F6B6A00522C12 /* CustomIcon.swift */,
+				767CAFB0284F63CF00522C12 /* MainTabView.swift */,
+				767CAFBD284F658300522C12 /* TodayView.swift */,
+				767CAFBF284F658900522C12 /* GameView.swift */,
+				767CAFC1284F659500522C12 /* AppView.swift */,
+				767CAFC3284F65A000522C12 /* ArcadeView.swift */,
+				767CAFC5284F65A500522C12 /* SearchView.swift */,
 				767CAFB2284F63CF00522C12 /* Assets.xcassets */,
 				767CAFB4284F63CF00522C12 /* Preview Content */,
 			);
@@ -158,8 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767CAFB1284F63CF00522C12 /* ContentView.swift in Sources */,
+				767CAFB1284F63CF00522C12 /* MainTabView.swift in Sources */,
+				767CAFBE284F658300522C12 /* TodayView.swift in Sources */,
+				767CAFC4284F65A000522C12 /* ArcadeView.swift in Sources */,
+				767CAFC6284F65A500522C12 /* SearchView.swift in Sources */,
+				767CAFC0284F658900522C12 /* GameView.swift in Sources */,
+				767CAFC2284F659500522C12 /* AppView.swift in Sources */,
 				767CAFAF284F63CF00522C12 /* AppStoreApp.swift in Sources */,
+				767CAFC8284F6B6A00522C12 /* CustomIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
