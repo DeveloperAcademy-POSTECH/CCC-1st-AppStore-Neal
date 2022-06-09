@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 enum TabViewItemType: String {
     case today = "투데이"
     case game = "게임"
