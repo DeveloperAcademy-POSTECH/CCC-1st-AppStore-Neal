@@ -8,9 +8,9 @@
 import SwiftUI
 enum TabViewItemType: String {
     case today = "투데이"
-    case game
+    case game = "게임"
     case app = "앱"
-    case arcade
+    case arcade = "아케이드"
     case search = "검색"
     var image: Image {
         switch self {

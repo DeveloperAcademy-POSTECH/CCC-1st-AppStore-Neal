@@ -22,11 +22,11 @@ struct MainTabView: View {
                 .tabItem {
                     TabViewItem(type: .app)
                 }
-            TodayView()
+            ArcadeView()
                 .tabItem {
                     TabViewItem(type: .arcade)
                 }
-            TodayView()
+            SearchView()
                 .tabItem {
                     TabViewItem(type: .search)
                 }
