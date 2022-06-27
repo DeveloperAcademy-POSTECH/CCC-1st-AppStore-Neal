@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		764FC7552851A705007A7415 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764FC7542851A705007A7415 /* GridView.swift */; };
 		767CAFAF284F63CF00522C12 /* AppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFAE284F63CF00522C12 /* AppStoreApp.swift */; };
 		767CAFB1284F63CF00522C12 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CAFB0284F63CF00522C12 /* MainTabView.swift */; };
 		767CAFB3284F63CF00522C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767CAFB2284F63CF00522C12 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		764FC7542851A705007A7415 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		767CAFAB284F63CF00522C12 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		767CAFAE284F63CF00522C12 /* AppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreApp.swift; sourceTree = "<group>"; };
 		767CAFB0284F63CF00522C12 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				767CAFC1284F659500522C12 /* AppView.swift */,
 				767CAFC3284F65A000522C12 /* ArcadeView.swift */,
 				767CAFC5284F65A500522C12 /* SearchView.swift */,
+				764FC7542851A705007A7415 /* GridView.swift */,
 				767CAFB2284F63CF00522C12 /* Assets.xcassets */,
 				767CAFB4284F63CF00522C12 /* Preview Content */,
 			);
@@ -187,6 +190,7 @@
 				767CAFC0284F658900522C12 /* GameView.swift in Sources */,
 				767CAFC2284F659500522C12 /* AppView.swift in Sources */,
 				767CAFAF284F63CF00522C12 /* AppStoreApp.swift in Sources */,
+				764FC7552851A705007A7415 /* GridView.swift in Sources */,
 				767CAFC8284F6B6A00522C12 /* CustomIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

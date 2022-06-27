@@ -30,7 +30,6 @@ struct MainTabView: View {
                 .tabItem {
                     TabViewItem(type: .search)
                 }
-            
         }
         .font(.headline)
     }

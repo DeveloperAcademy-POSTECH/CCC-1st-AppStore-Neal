@@ -9,7 +9,12 @@ import SwiftUI
 
 struct TodayView: View {
     var body: some View {
-        ProfileView(selectedTabview: .today)
+        VStack {
+            ProfileView(selectedTabview: .today)
+            Spacer(minLength: 10)
+            GridView()
+            Spacer()
+        }
     }
 }
 
